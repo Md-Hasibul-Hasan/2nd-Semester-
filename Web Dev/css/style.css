@@ -1,0 +1,18 @@
+.container{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    margin: 0px auto;
+    box-shadow: 40px black;
+
+}
+
+.box1{
+    background-color: yellow;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px 5px;
+    padding: 20px 0px 0px 0px;
+    box-shadow: 5px 5px 10px rgb(150, 31, 31);
+
+}

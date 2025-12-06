@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-row justify-between">
+    <div id="sidebar" class="hidden md:flex flex-col bg-gray-800 w-[10%] h-screen text-center">
+        <a href="" class="mt-4 mx-4 rounded font-bold hover:bg-blue-500 text-white"> CSE</a>
+        <a href="" class="mt-4 mx-4 rounded font-bold hover:bg-blue-500 text-white"> CSE</a>
+        <a href="" class="mt-4 mx-4 rounded font-bold hover:bg-blue-500 text-white"> CSE</a>
+        <a href="" class="mt-4 mx-4 rounded font-bold hover:bg-blue-500 text-white"> CSE</a>
+        <a href="" class="mt-4 mx-4 rounded font-bold hover:bg-blue-500 text-white"> CSE</a>
+        
+    </div>
+    <div class="bg-blue-300 text w-[90%] text-center  ">
+        <button id="btn" class="md:hidden"> ☰</button>
+        <h1 >Main content</h1>
+    </div>
+
+    <script>
+        const btn = document.querySelector("#btn");
+        const sidebar = document.querySelector("#sidebar");
+        btn.addEventListener("click",()=>{
+            // alert("clicked");
+            sidebar.classList.toggle("hidden");
+        })
+    </script>
+</body>
+</html>
